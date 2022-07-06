@@ -9,10 +9,11 @@ header {
     font-family: 'abril fatface';
 }
 li {
+    font-size: 17px;
     list-style: none;
     display: inline;
     text-align: center;
-    padding: 5px;
+    padding: 2px;
 }
 main h2 {
     font-family: 'Abril Fatface';
@@ -49,7 +50,11 @@ a:hover {
     padding: 5px;
 }
 nav {
+    position: sticky;
+    top: 0px;
+    left: 0px;
     color: #777;
+    background-color: rgba(240, 238, 219, 0.756);
 }
 .date {
     text-align: left;
